@@ -1,0 +1,12 @@
+RewriteEngine On
+
+
+RewriteRule ^.{0}$ accueil.php
+RewriteRule ^index$ index.php
+RewriteRule ^client$ view/clients/liste.php
+RewriteRule ^compt$ view/compte/ajout.php
+RewriteRule ^depot$ view/depots/depot.php
+
+RewriteRule ^clientcontroller$ controlller/clientcontroller.php
+RewriteRule ^comptcontroller$ controller/comptcontroller.php
+RewriteRule ^comptcontroller$ controller/comptcontroller.php
